@@ -1,0 +1,126 @@
+:root{
+    --bg: white;
+    --text: black;
+}
+/* start body */
+body{
+font-family: sans-serif;
+background-color: #151515;;
+}
+.center{
+    display: grid;
+    place-items: center;
+}
+.head-style {
+display: grid;
+place-items: center;
+border: 1px;
+background-color: black;
+border-bottom-style:solid ;
+
+}
+.container{
+   height: 900px;
+   width: 700px;
+    margin-top: 50px;
+    background-color: black;
+ padding-left: 20px;
+ margin-left: 300px;
+ border-radius: 25px;
+}
+h1{
+    color: white;
+    padding: 10px 10px  20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-shadow:  0 0 7px #fff;
+
+}
+.center .cont{
+    font-weight: bold;
+}
+a{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-color: #cbd5e0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    width: 290px;
+    border:1px solid rgba(255, 255, 255, 0.787);
+    color: #757070;
+    display: flex;
+    justify-content: space-evenly;
+}
+#text{
+    color: rgba(255, 255, 255, 0.476);
+    text-align: center;
+}
+a:hover{
+    border:2px solid white;
+    transition: ease-in;
+}
+
+.input-grid{
+    display: grid;
+}
+.form-label{
+    padding-bottom: 12px;
+}
+input{
+    padding: 15px;
+    width: 300px;
+    margin-left: 36px;
+    background-color: rgba(255, 255, 255, 0.715);
+    border: none;
+    border-radius: 12px;
+}
+.for-check{
+    color: white;
+    margin-left: 40px;
+    padding: 5px;
+}
+.for-check:hover{
+ color: green;
+
+}
+
+input:hover{
+    border:3px solid rgb(7, 7, 7);
+    transition: ease-in;
+}
+#t1{
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 44px;
+}
+.input:nth-child(2){
+    margin-bottom: 15px;
+}
+.form-down{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.form-down button{
+    color: white;
+    margin-left: 46px;
+    background-color: green;
+    border-radius: 20px;
+    width: 320px;
+    border: none;
+    padding: 12px;
+    font-size: larger;
+}
+.form-down button:hover{
+    background-color: rgb(10, 74, 10);
+    transition: ease-in;
+
+}

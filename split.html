@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+
+            background-color: rgb(105, 101, 96);
+            height: 900px;
+            width: 100%;
+display: flex;
+justify-content: center;
+
+        }
+        .bod{
+            margin-top: 30px;
+background-color: black;
+color: white;
+height: 400px;
+            width: 500px
+    
+        }
+        input{
+           align-items: center;
+           display: flex;
+           margin: 110px;
+           justify-content: center;
+            width: 250px;
+            border-radius: 25px;
+            border: none;
+            padding: 15px;
+            background-color: rgba(228, 209, 186, 0.882);
+        }
+        input:hover{
+            border: 2px solid white;
+            transition: 0.3s ease-in;
+        }
+        #output{
+            border: 1px solid rgba(255, 255, 255, 0.563);
+            border-radius: 12px;
+           height: 50px;
+           width: 300px;
+           padding: 5px;
+           margin-left: 90px;
+           margin-top: -100px;
+           font-weight: bold;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div onkeypress="EmailGrap()" class="bod">
+        <input type="email" placeholder="enter phone number" id="number">
+        <p id="output">
+    
+        </p>
+       </div>
+    
+</div>
+
+   
+</body>
+</html>
+<script>
+
+let EmailGrap=()=>{
+let number=document.getElementById("number").value;
+let numbername=number.split("-")[0];
+    let output= "company code :" + numbername;
+document.getElementById("output").innerHTML=output;
+
+
+}
+</script>
